@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+    
+</head>
+<body>
+    <style>
+
+        .square2 {
+            width: 100px;
+            height: 100px;
+            margin: 15px;
+            display: inline-table;
+            background-color: green;
+            border: 5px solid yellow;
+            /* box-shadow: 2px 2px 3px 3px red,
+                        3px 3px 2px 4px blue,
+                        4px 4px 2px 2px purple; */
+        }
+        
+        .square {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            display: inline-block;
+        }
+
+        #red {
+            background-color: red;
+        }
+
+        #green {
+            background-color: green;
+        }
+
+        #blue {
+            background-color: blue;
+        }
+
+        #yellow {
+            background-color: yellow;
+        }
+    
+    
+    </style>
+        <nav>
+                <ul>
+                    <li id="about"><a href="#about-us" style="color:brown">About us</a></li>
+                    <li id="skills"><a href="#skills" style="color:coral">Skills</a></li>
+                    <li id="portfolio"><a href="#portfolio" style="color:rgb(42, 61, 165)">Portfolio</a></li>
+                    <li id="contact"><a href="#contact" style="color:rgb(165, 42, 114)">Contact</a></li>
+                </ul>  
+        </nav>
+        <section id="about-us" style="background-color: darkgreen;" align="middle">
+                <h1>About Us</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </section>
+
+        <section id="skills" align="middle">
+                <h1>Skills</h1>
+                <div class="square" id="red"></div>
+                <div class="square" id="green"></div>
+                <div class="square" id="blue"></div>
+                <div class="square" id="yellow"></div>
+        </section>
+
+        <section id="portfolio" align="middle">
+                <h1>Portfolio</h1>
+                <div class="square2"></div>
+                <div class="square2"></div>
+                <div class="square2"></div>
+        </section>
+
+        <section id='contact' align="middle">
+            <h1>Kent Peacock</h1>
+            <address> 7(145)039-43-06 <br><br> 455019, Czernushka, ul. Kasatkina,
+            budynek 64, mieszkanie 38 </address>
+            <form action="">
+            <br>Imię:<br>
+            <input type="text" name="Imię" required>
+            <br>Temat:<br>
+            <input type="text" name="Temat" required>    
+            <br>Wiadomość:<br>
+            <input type="text" name="Wiadomość" required>     
+            <br><br>  
+            <button type="submit" style="width: 60px; height: 30px; background-color: blue; color: red">Wyślij</button>     
+            </form>
+        </section>
+</body>
+</html>
